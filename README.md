@@ -18,7 +18,7 @@ Install `cargo` with [`rustup`](https://rustup.rs/), run:
 
 ```console
 cargo build
-cargo run
+cargo run -p dark-bevy
 ```
 
 ## Contributing

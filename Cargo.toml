@@ -1,7 +1,12 @@
-[package]
-name = "dark-bevy"
+[workspace]
+resolver = "3"
+members = ["crates/bevy_runtime","crates/core","crates/formats","crates/game", "crates/tools"]
+
+[workspace.package]
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.97.1"
 license = "GPL-3.0-only"
 
-[dependencies]
+[workspace.lints.rust]
+unsafe_code = "forbid"

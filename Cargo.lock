@@ -5,3 +5,19 @@ version = 4
 [[package]]
 name = "dark-bevy"
 version = "0.1.0"
+
+[[package]]
+name = "dark-bevy-core"
+version = "0.1.0"
+
+[[package]]
+name = "dark-bevy-formats"
+version = "0.1.0"
+
+[[package]]
+name = "dark-bevy-runtime"
+version = "0.1.0"
+
+[[package]]
+name = "dark-bevy-tools"
+version = "0.1.0"
